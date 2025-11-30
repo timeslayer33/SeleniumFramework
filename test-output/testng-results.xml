@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-26T22:59:50 IST" name="Suite" finished-at="2025-10-26T23:00:02 IST" duration-ms="12464">
+  <suite started-at="2025-11-30T12:34:03 IST" name="Suite" finished-at="2025-11-30T12:34:28 IST" duration-ms="24922">
     <groups>
     </groups>
-    <test started-at="2025-10-26T22:59:50 IST" name="ErrorScenarios" finished-at="2025-10-26T23:00:02 IST" duration-ms="12464">
-      <class name="souravcompany.tests.ErrorScenarios">
-        <test-method is-config="true" signature="goToApp()[pri:0, instance:souravcompany.tests.ErrorScenarios@4b1d6571]" started-at="2025-10-26T22:59:50 IST" name="goToApp" finished-at="2025-10-26T23:00:01 IST" duration-ms="11317" status="PASS">
+    <test started-at="2025-11-30T12:34:03 IST" name="SubmitOrderScenarios" finished-at="2025-11-30T12:34:28 IST" duration-ms="24922">
+      <class name="souravcompany.tests.StandAloneTest">
+        <test-method is-config="true" signature="goToApp()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:03 IST" name="goToApp" finished-at="2025-11-30T12:34:08 IST" duration-ms="4820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToApp -->
-        <test-method signature="loginErrorCheck()[pri:0, instance:souravcompany.tests.ErrorScenarios@4b1d6571]" started-at="2025-10-26T23:00:01 IST" name="loginErrorCheck" finished-at="2025-10-26T23:00:02 IST" duration-ms="1023" status="PASS">
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:08 IST" name="orderHistoryTest" data-provider="getTestData" finished-at="2025-11-30T12:34:09 IST" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hambadolu@123, product=ZARA COAT 3, email=hambadolu123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginErrorCheck -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:souravcompany.tests.ErrorScenarios@4b1d6571]" started-at="2025-10-26T23:00:02 IST" name="quitDriver" finished-at="2025-10-26T23:00:02 IST" duration-ms="98" status="PASS">
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:09 IST" name="quitDriver" finished-at="2025-11-30T12:34:09 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- souravcompany.tests.ErrorScenarios -->
-    </test> <!-- ErrorScenarios -->
+        <test-method is-config="true" signature="goToApp()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:09 IST" name="goToApp" finished-at="2025-11-30T12:34:10 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToApp -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:10 IST" name="orderHistoryTest" data-provider="getTestData" finished-at="2025-11-30T12:34:11 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Golumolu@123, product=ZARA COAT 3, email=golumolu@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:11 IST" name="quitDriver" finished-at="2025-11-30T12:34:11 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="goToApp()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:11 IST" name="goToApp" finished-at="2025-11-30T12:34:14 IST" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToApp -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:14 IST" name="submitOrderTest" data-provider="getTestData" finished-at="2025-11-30T12:34:20 IST" duration-ms="6366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hambadolu@123, product=ZARA COAT 3, email=hambadolu123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:20 IST" name="quitDriver" finished-at="2025-11-30T12:34:20 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="goToApp()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:20 IST" name="goToApp" finished-at="2025-11-30T12:34:21 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToApp -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:21 IST" name="submitOrderTest" data-provider="getTestData" finished-at="2025-11-30T12:34:28 IST" duration-ms="6636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Golumolu@123, product=ZARA COAT 3, email=golumolu@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:souravcompany.tests.StandAloneTest@525575]" started-at="2025-11-30T12:34:28 IST" name="quitDriver" finished-at="2025-11-30T12:34:28 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- souravcompany.tests.StandAloneTest -->
+    </test> <!-- SubmitOrderScenarios -->
   </suite> <!-- Suite -->
 </testng-results>
