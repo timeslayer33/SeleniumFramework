@@ -9,12 +9,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import sourav.testcomponents.BaseTest;
+import sourav.testcomponents.Retry;
 import souravcompany.CartPage;
 import souravcompany.CheckOutPage;
 import souravcompany.ConfirmationPage;
 import souravcompany.OrderHistoryPage;
 import souravcompany.ProductsPage;
-import resources.Retry;
 
 public class StandAloneTest extends BaseTest{
 	

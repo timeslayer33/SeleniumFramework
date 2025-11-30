@@ -1,4 +1,4 @@
-package resources;
+package sourav.testcomponents;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
